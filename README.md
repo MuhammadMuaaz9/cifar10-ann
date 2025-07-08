@@ -62,22 +62,18 @@ Dense(10, activation='softmax')
 Check "Evulation" folder for loss, accuracy and confusion matrix plots
 
 ### ✅ Classification Report
-              precision    recall  f1-score   support
-
-    airplane       0.25      0.75      0.37      1000
-  automobile       0.67      0.36      0.46      1000
-        bird       0.42      0.01      0.02      1000
-         cat       0.26      0.03      0.06      1000
-        deer       0.00      0.00      0.00      1000
-         dog       0.18      0.75      0.29      1000
-        frog       0.75      0.00      0.01      1000
-       horse       0.47      0.45      0.46      1000
-        ship       0.64      0.39      0.49      1000
-       truck       0.63      0.34      0.44      1000
-
-    accuracy                           0.31     10000
-   macro avg       0.43      0.31      0.26     10000
-weighted avg       0.43      0.31      0.26     10000
+| Class      | Precision | Recall | F1-Score | Support |
+| ---------- | --------- | ------ | -------- | ------- |
+| airplane   | 0.25      | 0.75   | 0.37     | 1000    |
+| automobile | 0.67      | 0.36   | 0.46     | 1000    |
+| bird       | 0.42      | 0.01   | 0.02     | 1000    |
+| cat        | 0.26      | 0.03   | 0.06     | 1000    |
+| deer       | 0.00      | 0.00   | 0.00     | 1000    |
+| dog        | 0.18      | 0.75   | 0.29     | 1000    |
+| frog       | 0.75      | 0.00   | 0.01     | 1000    |
+| horse      | 0.47      | 0.45   | 0.46     | 1000    |
+| ship       | 0.64      | 0.39   | 0.49     | 1000    |
+| truck      | 0.63      | 0.34   | 0.44     | 1000    |
 
 
 🧩 Limitations
